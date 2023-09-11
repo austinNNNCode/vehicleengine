@@ -34,7 +34,7 @@ def main():
     stats_thread.daemon = True
     stats_thread.start()
 
-    # Example: Supply some gas for 10 seconds
+    # Example: Supply some gas for 10 secondss
     gas_portion = GasPortion(gasoline=my_engine.gasoline, volume_liters=5)
     rotations = my_engine.supply(gas_portion, seconds=10)
 
